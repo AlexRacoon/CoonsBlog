@@ -1,0 +1,56 @@
+.home {
+    h1 {
+        margin: 0;
+        padding: 0;
+        text-indent: -999px;
+        overflow: hidden;
+        height: 437px;
+    }    
+    .teaser {
+        background: ##1b201e;
+        background-image: url("../images/zenbg-1.png"), url("../images/zenbg-2.png");
+        background-repeat: repeat-x, repeat;
+        height: 411px;
+        h2 {
+            margin: 0;
+            color: white;
+            padding: 20px 0 0 0;
+            font-size: 40px;
+            font-weight: bold;
+            width: 580px;
+        }
+        p {
+            width: 580px;
+            color: gray;
+            font-size: 16px;
+            line-height: 28px;
+            font-weight: bold;
+            margin: 10px 0 0 0;
+        }
+    }
+    .blog-articles {
+        margin: 30px 0 0 0;
+        .item {
+            width: 202px;
+            float: left;
+            margin: 0 50px 0 0;
+            img {
+                max-width: 201px; 
+                display: block;
+            }
+            a {
+                display: block;
+                margin: 10px 0 0 0;
+                color: #0b4c6e;
+                font-size: 20px;
+                text-decoration: none;
+                &:hover {
+                    color: lighten(#0b4c6e, 20%);
+                }
+            }
+        }
+        .item:last-child {
+            margin: 0;
+        }
+    }
+}

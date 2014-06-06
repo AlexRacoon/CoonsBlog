@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{ title }}</title>
+		<link rel='stylesheet' href='/stylesheets/style.css' />
+	</head>
+	<body>
+		<div class="container">
+            
+            <!-- navigation -->
+			<nav>
+				<div class="content">
+					<a href="/" class="logo">
+						<img src="/images/logo.png" alt="YAAC">
+					</a>
+                    <ul class="menu">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                        <li><a href="/services">Portfolio</a></li>
+                        <li><a href="/careers">Skills/Exp</a></li>
+                        <li><a href="/contacts">Contacts</a></li>
+                    </ul>
+                    <br class="clear" />
+				</div>
+			</nav>
+            
+            <!-- home page -->
+            <div class="home">
+                <h1>Yet another angry coder's <small>blogging application</small></h1>
+                <div class="teaser">
+                    <div class="content">
+                        <h2>{{bannerTitle}}</h2>
+                        <p>{{bannerText}}</p>
+                    </div>
+                </div>
+                <h2>Blog</h2>
+                <div class="blog-articles">
+                    <div class="content">
+                        {{{blogArticles}}}
+                    </div>
+                    <br class="clear" />
+                </div>
+            </div>
+            
+            <!-- footer -->
+            <div class="footer">
+                <div class="content">
+                    %Anonimous% &copy; 2014
+                </div>
+            </div>
+            
+		</div>
+	</body>
+</html>
